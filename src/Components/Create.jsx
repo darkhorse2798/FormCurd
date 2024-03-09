@@ -3,8 +3,7 @@ import style from "../Style/Create.module.css";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 function Create() {
-  //   const [id, setId] = useState("");
-
+//  https://65e8067153d564627a8fabbf.mockapi.io/curdapi/StuDetails("This is the mock API kindly note that it can't be work for everyone better to with Your API")
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [city, setCity] = useState("");
